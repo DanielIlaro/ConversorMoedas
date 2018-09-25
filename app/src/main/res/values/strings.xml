@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conversor de Moeda</string>
+    <string name="valor_em_real">Valor em Real:</string>
+    <string name="valor_em_dollar">Valor em Dolar:</string>
+    <string name="valor_em_euro">Valor em Euro:</string>
+    <string name="calculate">Calcular</string>
+    <string name="ex_real">10</string>
+    <string name="logo_empresa">Empresa: Alpha Aquilae</string>
+    <string name="versao">Versão: 0.1.0</string>
+</resources>

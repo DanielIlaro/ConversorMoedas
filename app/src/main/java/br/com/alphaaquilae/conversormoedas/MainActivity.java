@@ -32,14 +32,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         int id = v.getId();
         double value;
+
         if (this.mViewHolder.editReal.getText().toString().equals("")){
              value = 0.0;
              Toast.makeText(this, "Por favor, digite um valor",
                             Toast.LENGTH_SHORT).show();
         }
+
         else {
              value = Double.valueOf(this.mViewHolder.editReal.getText().toString());
         }
+
         Conversion dollar = new Conversion("dollar", value);
         Conversion euro = new Conversion("euro", value);
 

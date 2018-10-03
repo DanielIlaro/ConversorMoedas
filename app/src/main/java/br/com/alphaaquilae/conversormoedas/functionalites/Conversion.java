@@ -5,8 +5,8 @@ public class Conversion {
     private double conversionValue;
 
     //valores das moedas em relação ao real
-    private double euro = 4.81;
-    private double dollarAmerican = 4.09;
+    private double euro = 0.21;
+    private double dollarAmerican = 0.25;
 
     public Conversion(String coin, double real){
        this.conversionValue = valueMoeda(coin, real);
